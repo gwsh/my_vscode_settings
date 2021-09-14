@@ -1,0 +1,36 @@
+{
+  /// @date 2021-09-14 20:04:52
+  /// @author gwsh<shundong106@gmail.com>
+  /// @description <p> 基于存放自己的vscode配置，也是慢慢的由idea转向全面使用vscode的过程 </p>
+  // tab 大小为2个空格
+  "editor.tabSize": 2,
+  // 编辑器换行
+  "editor.wordWrap": "off",
+  // 以像素为单位控制字体
+  "editor.fontSize": 18,
+  // 开启 vscode 文件路径导航
+  "breadcrumbs.enabled": true,
+  // windows窗体缩放倍数
+  "window.zoomLevel": 1.2,
+  "editor.minimap.enabled": false,
+  // terminal 采用字体
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "terminal.integrated.fontSize": 14,
+  // dart 环境 start
+  "dart.flutterSdkPaths": [
+    ".fvm/flutter_sdk"
+  ],
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  }
+  // dart 环境 end
+}
